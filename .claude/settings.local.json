@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for i in {1970-004..1970-020})",
+      "Bash(do mkdir -p docs/$i)",
+      "Bash(done)",
+      "Bash(for i in {006..020})",
+      "Bash(do mkdir -p \"/home/daniel/git/codecheck/testing-dev-register/docs/1970-$i\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
