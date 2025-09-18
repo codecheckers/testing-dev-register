@@ -1,0 +1,21 @@
+Certificate,Repository,Type,Venue,Issue
+1970-001,github::testuser/FAKE-ml-classification-demo,journal,FAKE PeerJ Computer Science,101
+1970-002,osf::FAKE1,community,fake-codecheck,102
+1970-003,zenodo::99999001,conference,FAKE Conference 2024,103
+1970-004,github::fakeorg/TESTING-neural-networks,journal,FAKE Journal of Open Source Software,104
+1970-005,github::testdev/DEMO-climate-simulation,community,fake-preprint,105
+1970-006,osf::TEST2,institution,FAKE University Lab,106
+1970-007,github::mockuser/SAMPLE-data-analysis,journal,FAKE JMIR Research Protocols,107
+1970-008,zenodo::99999002,community,fake-codecheck-eu,108
+1970-009,github::demouser/PLACEHOLDER-genomics,conference,FAKE Bio Conference,109
+1970-010,osf::MOCK3,journal,FAKE eLife,110
+1970-011,github::testlab/EXAMPLE-quantum-sim,institution,FAKE MIT Testing Dept,111
+1970-012,zenodo::99999003,community,fake-preprint-server,112
+1970-013,github::sampleorg/DUMMY-nlp-pipeline,journal,FAKE Journal of Statistical Software,113
+1970-014,osf::DEMO4,conference,FAKE ICML Testing,114
+1970-015,github::placeholder/TEST-image-processing,community,fake-codecheck-nl,115
+1970-016,zenodo::99999004,journal,FAKE F1000Research,116
+1970-017,github::mocklab/SAMPLE-statistics,institution,FAKE Stanford Testing,117
+1970-018,osf::FAKE5,community,fake-open-review,118
+1970-019,github::testproject/DEMO-blockchain,conference,FAKE Crypto Conference,119
+1970-020,zenodo::99999005,journal,FAKE Scientific Data,120
