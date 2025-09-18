@@ -5,7 +5,12 @@
       "Bash(do mkdir -p docs/$i)",
       "Bash(done)",
       "Bash(for i in {006..020})",
-      "Bash(do mkdir -p \"/home/daniel/git/codecheck/testing-dev-register/docs/1970-$i\")"
+      "Bash(do mkdir -p \"/home/daniel/git/codecheck/testing-dev-register/docs/1970-$i\")",
+      "Bash(for i in {004..020})",
+      "Bash(do if [ -f \"/home/daniel/git/codecheck/testing-dev-register/docs/1970-$i/index.html\" ])",
+      "Bash(then echo \"✓ 1970-$i/index.html created\")",
+      "Bash(else echo \"✗ 1970-$i/index.html missing\")",
+      "Bash(fi)"
     ],
     "deny": [],
     "ask": []
