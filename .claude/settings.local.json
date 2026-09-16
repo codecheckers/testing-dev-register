@@ -10,7 +10,8 @@
       "Bash(do if [ -f \"/home/daniel/git/codecheck/testing-dev-register/docs/1970-$i/index.html\" ])",
       "Bash(then echo \"✓ 1970-$i/index.html created\")",
       "Bash(else echo \"✗ 1970-$i/index.html missing\")",
-      "Bash(fi)"
+      "Bash(fi)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ],
     "deny": [],
     "ask": []

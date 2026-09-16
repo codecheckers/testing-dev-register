@@ -1,0 +1,2 @@
+name,handle,ORCID,contact,fields,languages,ecr_until,ecr_checked,fediverse
+Fake Codechecker,@fake-codechecker,0000-0000-0000-0002,see ORCID page,testing,Go,NA,NA,@fake_codechecker@example.invalid
