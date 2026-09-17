@@ -1,0 +1,26 @@
+{
+  "certificate": {
+    "id": "oom-test",
+    "title": "CODECHECK Certificate oom-test",
+    "url": "https://codecheck.org.uk/testing-dev-register/oom-test/"
+  },
+  "paper": {
+    "title": "Deliberately oversized certificate page, for codecheckers/chekhov#32",
+    "authors": [
+      { "name": "Test Author" }
+    ],
+    "reference": ""
+  },
+  "codecheck": {
+    "codecheckers": [
+      { "name": "Test Codechecker" }
+    ],
+    "check_time": "2026-09-17T22:00:00",
+    "repository": "github::codecheckers/testing-dev-register",
+    "report": "",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "Not a real certificate: cert_1.png is a synthetic 6000x8485 page, generated to exceed the deployment's 128 MB memory limit while building the announce animation, for codecheckers/chekhov#32.",
+    "manifest": []
+  }
+}
