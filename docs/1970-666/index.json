@@ -1,19 +1,23 @@
 {
   "certificate": {
-    "id": "oom-test",
-    "title": "CODECHECK Certificate oom-test",
-    "url": "https://codecheck.org.uk/testing-dev-register/oom-test/"
+    "id": "1970-666",
+    "title": "CODECHECK Certificate 1970-666",
+    "url": "https://codecheck.org.uk/testing-dev-register/1970-666/"
   },
   "paper": {
     "title": "Deliberately oversized certificate page, for codecheckers/chekhov#32",
     "authors": [
-      { "name": "Test Author" }
+      {
+        "name": "Test Author"
+      }
     ],
     "reference": ""
   },
   "codecheck": {
     "codecheckers": [
-      { "name": "Test Codechecker" }
+      {
+        "name": "Test Codechecker"
+      }
     ],
     "check_time": "2026-09-17T22:00:00",
     "repository": "github::codecheckers/testing-dev-register",
