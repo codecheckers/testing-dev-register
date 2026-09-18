@@ -1,2 +1,15 @@
 name,handle,ORCID,contact,fields,languages,ecr_until,ecr_checked,fediverse
 Fake Codechecker,@fake-codechecker,0000-0000-0000-0002,see ORCID page,testing,Go,NA,NA,@fake_codechecker@example.invalid
+Fake R Codechecker,@a-r-codechecker,0000-0000-0000-0003,see ORCID page,statistics,R,NA,NA,
+Fake Python Codechecker,@a-python-codechecker,0000-0000-0000-0004,fake@example.invalid,software engineering,Python,NA,NA,
+Fake Geospatial Codechecker,@a-geospatial-codechecker,0000-0000-0000-0005,see ORCID page,"geospatial data analysis,spatial statistics","R, Python",NA,NA,
+Fake Neuroscience Codechecker,@a-neuro-codechecker,0000-0000-0000-0006,see ORCID page,neuroscience,"R, MATLAB",NA,NA,
+Fake Bioinformatics Codechecker,@a-bioinfo-codechecker,0000-0000-0000-0007,see ORCID page,bioinformatics,"R, Python, Perl",NA,NA,
+Fake Fortran Codechecker,@a-fortran-codechecker,0000-0000-0000-0008,see ORCID page,climate modelling,"Fortran, Python",NA,NA,
+Fake Julia Codechecker,@a-julia-codechecker,0000-0000-0000-0009,see ORCID page,numerical methods,"Julia, C++",NA,NA,
+Fake MATLAB Codechecker,@a-matlab-codechecker,0000-0000-0000-0010,see ORCID page,signal processing,MATLAB,NA,NA,
+Fake HPC Codechecker,@an-hpc-codechecker,0000-0000-0000-0011,see ORCID page,"hpc,containers","Shell, C, Python",NA,NA,
+Fake Psychology Codechecker,@a-psychology-codechecker,0000-0000-0000-0012,see ORCID page,psychology,R,NA,NA,
+Fake Machine Learning Codechecker,@an-ml-codechecker,0000-0000-0000-0013,see ORCID page,machine learning,"Python, Jupyter Notebook",NA,NA,
+Fake Busy Codechecker,@a-busy-codechecker,0000-0000-0000-0014,see ORCID page,geospatial data analysis,"R, Python",NA,NA,
+Fake Prose Codechecker,@a-prose-codechecker,0000-0000-0000-0015,see ORCID page,research software,"functional languages (Haskell, ML), utilitarian languages (Python, Go), make",NA,NA,
