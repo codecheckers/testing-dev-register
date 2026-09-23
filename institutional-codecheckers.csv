@@ -2,3 +2,4 @@ name,handle,ORCID,institution,fediverse
 Fake Institutional Codechecker,@fake-institutional,NA,FAKE University Lab,@fake_institutional@example.invalid
 Fake Institutional Codechecker Two,@an-institutional-codechecker,0000-0000-0000-0016,FAKE University Lab,
 Fake Institutional Codechecker Three,@a-second-institutional-codechecker,NA,FAKE Institute,
+Test row for the institutional warning,@nuest,NA,FAKE University Lab,
