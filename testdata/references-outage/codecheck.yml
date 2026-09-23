@@ -1,0 +1,26 @@
+---
+
+manifest:
+  - file: codecheck.yml
+    comment: this file, so that the manifest points at something that is there
+
+paper:
+  title: "A paper whose references are tested"
+  authors:
+    - name: Josiah Carberry
+      ORCID: 0000-0002-1825-0097
+  reference: https://doi.org/10.1038/s41586-020-2649-2
+  reference-other:
+    - https://doi.org/10.48550/arXiv.1706.03762
+    - https://httpbin.org/status/503
+repository: https://httpbin.org/status/503
+
+codechecker:
+  - name: S. Eglen
+    ORCID: 0000-0001-8607-8025
+
+report: https://doi.org/10.5281/zenodo.1234567
+summary: |
+  A bundle for testing check metadata references, chekhov#11.
+certificate: 1970-001
+version: https://codecheck.org.uk/spec/config/2.0/
