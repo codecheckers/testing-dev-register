@@ -1,2 +1,10 @@
 name,longname,label,logo_url,website_url,policy_url,publisher,contact_name,contact_email,description,identifiers,wikidata,fediverse,hashtags
 FAKE PeerJ Computer Science,FAKE PeerJ Computer Science,journal,,,,,,,FAKE venue for testing.,,,@fake_venue@example.invalid,FAKETesting;#OpenScience
+FAKE eLife,FAKE eLife,journal,,,,,,,FAKE venue for testing.,,,,
+FAKE Lifecycle Journal,FAKE Lifecycle Journal,lifecycle journal,,,,,,,FAKE venue for testing.,,,,
+FAKE Conference 2024,FAKE Conference 2024,conference,,,,,,,FAKE venue for testing.,,,,
+fake-codecheck,fake-codecheck,community,,,,,,,FAKE venue for testing.,,,,
+fake-codecheck-nl,fake-codecheck-nl,check-nl,,,,,,,FAKE venue for testing.,,,,
+fake-preprint,fake-preprint,preprint,,,,,,,FAKE venue for testing.,,,,
+FAKE University Lab,FAKE University Lab,institution,,,,,,,FAKE venue for testing.,,,,
+FAKE MIT Testing Dept,FAKE MIT Testing Dept,institution,,,,,,,FAKE venue for testing.,,,,
