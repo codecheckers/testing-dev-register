@@ -19,3 +19,4 @@ Certificate,Repository,Type,Venue,Issue
 1970-018,osf::FAKE5,community,fake-codecheck,118
 1970-019,github::testproject/DEMO-blockchain,conference,FAKE Conference 2024,119
 1970-020,zenodo::99999005,journal,FAKE eLife,120
+1970-021,github::codecheckers/testing-dev-register|testdata/register-row,journal,FAKE eLife,225
