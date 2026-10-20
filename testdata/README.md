@@ -10,6 +10,7 @@ repository.
 |---|---|
 | `future-spec/` | declares specification version 9.9, which no build knows, so `check` refuses it instead of reporting against a guess (codecheckers/chekhov#7) |
 | `no-version/` | declares no version at all, so `check` assumes one and says which - the refusal above must not fire here |
+| `register-row/` | carries certificate `1970-021`, the next after the last row, an identifier not in `register.csv`, so `check register` builds and judges a row for it before the row exists (codecheckers/chekhov#21) |
 
 Each is a copy of `testdata/valid-2.0/` from the bot's own repository with one
 line changed, and carries the files its manifest names, so the only findings
