@@ -12,6 +12,12 @@ repository.
 | `no-version/` | declares no version at all, so `check` assumes one and says which - the refusal above must not fire here |
 | `mistyped-orcid/` | gives the paper's author an ORCID with a wrong check digit, so `check metadata` reports it once, as a likely typo under `CC-MET-001`, and does not look it up under `CC-MET-002` (codecheckers/chekhov#9) |
 | `register-row/` | carries certificate `1970-021`, the next after the last row, an identifier not in `register.csv`, so `check register` builds and judges a row for it before the row exists (codecheckers/chekhov#21) |
+| `yaml-directive/` | starts with `%YAML 1.2` and a comment before `---`, and a comment after it, all of which `CC-CFG-002` allows, so the file is read and passes (codecheckers/chekhov#62) |
+| `no-output-files/` | has a manifest of a single item with only a comment, which declares a check without output files, so `CC-CFG-005` passes and `CC-BUN-001` has nothing to look for (codecheckers/chekhov#62) |
+| `placeholder-report/` | gives the report as `zenodo.example`, which `CC-CFG-013` and `CC-CFG-023` report as a placeholder (codecheckers/chekhov#62) |
+| `future-certificate/` | carries certificate `2099-001`, in a year that has not started, which `CC-REG-002` fails (codecheckers/chekhov#62) |
+| `dotcodecheck-no-pdf/` | keeps its certificate directory as `.codecheck/` with no PDF in it, so `CC-BUN-003` names that directory (codecheckers/chekhov#62) |
+| `no-licence/` | has no `LICENSE`, so `CC-BUN-005` names the files it looked for (codecheckers/chekhov#62) |
 
 Each is a copy of `testdata/valid-2.0/` from the bot's own repository with one
 line changed, and carries the files its manifest names, so the only findings
