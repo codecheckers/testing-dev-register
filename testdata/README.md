@@ -18,6 +18,7 @@ repository.
 | `future-certificate/` | carries certificate `2099-001`, in a year that has not started, which `CC-REG-002` fails (codecheckers/chekhov#62) |
 | `dotcodecheck-no-pdf/` | keeps its certificate directory as `.codecheck/` with no PDF in it, so `CC-BUN-003` names that directory (codecheckers/chekhov#62) |
 | `no-licence/` | has no `LICENSE`, so `CC-BUN-005` names the files it looked for (codecheckers/chekhov#62) |
+| `unfilled-template/` | leaves the template's `FIXME` in the paper reference, a further reference, the repository and the report, which `CC-CFG-023` reports and the rules that resolve links do not ask for; and a title naming Todorov and mastodon, which is not a placeholder (codecheckers/chekhov#62) |
 
 Each is a copy of `testdata/valid-2.0/` from the bot's own repository with one
 line changed, and carries the files its manifest names, so the only findings

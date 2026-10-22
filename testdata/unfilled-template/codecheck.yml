@@ -1,0 +1,27 @@
+---
+version: https://codecheck.org.uk/spec/config/2.0/
+
+manifest:
+  - file: figure1.png
+    comment: manuscript Figure 1
+  - file: results/table1.csv
+    comment: manuscript Table 1
+
+paper:
+  title: "Todorov's paper, announced on mastodon"
+  authors:
+    - name: Josiah Carberry
+      ORCID: 0000-0002-1825-0097
+  reference: https://doi.org/FIXME
+  reference-other:
+    - https://doi.org/10.5555/FIXME
+
+codechecker:
+  - name: S. Eglen
+    ORCID: 0000-0001-8607-8025
+
+repository: https://github.com/FIXME/FIXME
+report: https://doi.org/10.5281/zenodo.FIXME
+summary: |
+  All material was provided and the figures could be reproduced.
+certificate: 1970-001
