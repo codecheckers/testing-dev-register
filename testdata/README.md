@@ -12,6 +12,7 @@ repository.
 | `no-version/` | declares no version at all, so `check` assumes one and says which - the refusal above must not fire here |
 | `mistyped-orcid/` | gives the paper's author an ORCID with a wrong check digit, so `check metadata` reports it once, as a likely typo under `CC-MET-001`, and does not look it up under `CC-MET-002` (codecheckers/chekhov#9) |
 | `register-row/` | carries certificate `1970-021`, the next after the last row, an identifier not in `register.csv`, so `check register` builds and judges a row for it before the row exists (codecheckers/chekhov#21) |
+| `register-row-022/` | `register-row/` with certificate `1970-022`, since `1970-021` is in `register.csv` now (#239): the next row `register` opens a pull request for, to see each write a reply reports marked `✔` or `✖` (codecheckers/chekhov 0.26.1) |
 | `yaml-directive/` | starts with `%YAML 1.2` and a comment before `---`, and a comment after it, all of which `CC-CFG-002` allows, so the file is read and passes (codecheckers/chekhov#62) |
 | `no-output-files/` | has a manifest of a single item with only a comment, which declares a check without output files, so `CC-CFG-005` passes and `CC-BUN-001` has nothing to look for (codecheckers/chekhov#62) |
 | `placeholder-report/` | gives the report as `zenodo.example`, which `CC-CFG-013` and `CC-CFG-023` report as a placeholder (codecheckers/chekhov#62) |
