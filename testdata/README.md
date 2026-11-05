@@ -21,6 +21,8 @@ repository.
 | `no-licence/` | has no `LICENSE`, so `CC-BUN-005` names the files it looked for (codecheckers/chekhov#62) |
 | `ready/` | has what an author provides before a check starts - a `README.md`, a manifest, a `LICENSE`, and a `paper.reference` that resolves (the CODECHECK paper) - so `check ready` says it is ready; the only bundle here with a README (codecheckers/chekhov#28) |
 | `unfilled-template/` | leaves the template's `FIXME` in the paper reference, a further reference, the repository and the report, which `CC-CFG-023` reports and the rules that resolve links do not ask for; and a title naming Todorov and mastodon, which is not a placeholder (codecheckers/chekhov#62) |
+| `landing-page/` | carries certificate `1970-001` with the paper, report and codecheckers its page in the register gives, so `check finish` links the page as agreeing; `ready/`, also `1970-001`, disagrees with it on all four (codecheckers/chekhov 0.27.0) |
+| `landing-page-missing/` | `register-row/` with certificate `1970-002`, which `register.csv` lists and the register has no page for, so `check finish` fails it (codecheckers/chekhov 0.27.0) |
 
 Each is a copy of `testdata/valid-2.0/` from the bot's own repository with one
 line changed, and carries the files its manifest names, so the only findings
